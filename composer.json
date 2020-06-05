@@ -1,0 +1,20 @@
+{
+    "name": "cuuuuuirz/f2fpay",
+    "description": "a composer package for alipay f2fpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cuuuuuirz",
+            "email": "cuuuuuirz@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cuuuuuirz\\F2FPay\\": "./src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "simplesoftwareio/simple-qrcode": "^3.0"
+    }
+}
